@@ -21,8 +21,16 @@ namespace TestGit
 
         static string GetQuote(int i)
         {
-            //After clculation return quote
-            int result = i * i;
+            int result = 0;
+            try
+            {
+                //After clculation return quote
+                 result = i * i;
+            }
+            catch (Exception ex)
+            {
+                return "Cannot return quote";
+            }
             return (result.ToString());
         }
     }

@@ -11,6 +11,7 @@ namespace TestGit
         static void Main(string[] args)
         {
             //This is a test for git repo.
+            Console.Write("Create an empty repository");
             Console.Write("Hello! Have a great day!");
             Console.ReadLine();
         }

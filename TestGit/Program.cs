@@ -11,11 +11,15 @@ namespace TestGit
         static void Main(string[] args)
         {
             //This is a test for git repo.
-            Console.Write("Create an empty repository");
-            Console.Write("Hello! Have a great day!");
+            Console.WriteLine("Create an empty repository");
+            Console.WriteLine("Hello! Have a great day!");
             
             //Call the function GetQuote
-            Console.Write("Calling function GetQuote " + GetQuote(2) );
+            Console.WriteLine("Calling function GetQuote " + GetQuote(2) );
+
+            //Call the PRiceQuote
+            Console.WriteLine("Calling function PriceQuote $" + GetPriceQuote(2));
+
             Console.ReadLine();
         }
 
@@ -32,6 +36,11 @@ namespace TestGit
                 return "Cannot return quote";
             }
             return (result.ToString());
+        }
+
+        static int GetPriceQuote(int i)
+        {
+            return (i * i * i);
         }
     }
 }

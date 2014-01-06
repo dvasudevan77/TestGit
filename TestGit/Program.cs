@@ -13,7 +13,25 @@ namespace TestGit
             //This is a test for git repo.
             Console.Write("Create an empty repository");
             Console.Write("Hello! Have a great day!");
+            
+            //Call the function GetQuote
+            Console.Write("Calling function GetQuote " + GetQuote(2) );
             Console.ReadLine();
+        }
+
+        static string GetQuote(int i)
+        {
+            int result = 0;
+            try
+            {
+                //After clculation return quote
+                 result = i * i;
+            }
+            catch (Exception ex)
+            {
+                return "Cannot return quote";
+            }
+            return (result.ToString());
         }
     }
 }

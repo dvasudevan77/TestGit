@@ -38,6 +38,11 @@ namespace TestGit
             return (result.ToString());
         }
 
+        /// <summary>
+        /// Get Price quote
+        /// </summary>
+        /// <param name="i"></param>
+        /// <returns></returns>
         static int GetPriceQuote(int i)
         {
             return (i * i * i);

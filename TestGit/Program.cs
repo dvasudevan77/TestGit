@@ -23,6 +23,11 @@ namespace TestGit
             Console.ReadLine();
         }
 
+        /// <summary>
+        /// Method description for GetQuote
+        /// </summary>
+        /// <param name="i"></param>
+        /// <returns></returns>
         static string GetQuote(int i)
         {
             int result = 0;
@@ -38,9 +43,24 @@ namespace TestGit
             return (result.ToString());
         }
 
+        /// <summary>
+        /// Method description for Quote
+        /// </summary>
+        /// <param name="i"></param>
+        /// <returns></returns>
         static int GetPriceQuote(int i)
         {
             return (i * i * i);
+        }
+        
+        /// <summary>
+        /// A token method
+        /// </summary>
+        /// <param name="person"></param>
+        /// <returns></returns>
+        static string GetToken(string person)
+        {
+            return "Token 123";
         }
     }
 }

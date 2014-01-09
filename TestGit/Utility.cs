@@ -10,7 +10,6 @@ namespace TestGit
     {
         /// <summary>
         /// Method for sum of two numbers. Bal bla
-        /// Added anotehr methos description
         /// </summary>
         /// <param name="number1"></param>
         /// <param name="number2"></param>

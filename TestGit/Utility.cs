@@ -9,7 +9,7 @@ namespace TestGit
     public static class Utility
     {
         /// <summary>
-        /// Method for sum of two numbers. 
+        /// Method for sum of two numbers. Bal bla
         /// </summary>
         /// <param name="number1"></param>
         /// <param name="number2"></param>

@@ -19,5 +19,11 @@ namespace TestGit
             int test = number1 + number2;
             return test;
         }
+
+        public static int subtract(int num1, int num2)
+        {
+            int result = num1 - num2;
+            return result;
+        }
     }
 }

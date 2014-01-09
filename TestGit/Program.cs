@@ -42,5 +42,10 @@ namespace TestGit
         {
             return (i * i * i);
         }
+
+        static string GetToken(string person)
+        {
+            return "Token 123";
+        }
     }
 }

@@ -20,6 +20,8 @@ namespace TestGit
             //Call the PRiceQuote
             Console.WriteLine("Calling function PriceQuote $" + GetPriceQuote(2));
 
+            Console.WriteLine("I am in branch2");
+
             Console.ReadLine();
         }
 

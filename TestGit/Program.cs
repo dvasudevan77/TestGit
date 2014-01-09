@@ -42,7 +42,12 @@ namespace TestGit
         {
             return (i * i * i);
         }
-
+        
+        /// <summary>
+        /// A token method
+        /// </summary>
+        /// <param name="person"></param>
+        /// <returns></returns>
         static string GetToken(string person)
         {
             return "Token 123";

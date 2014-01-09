@@ -23,6 +23,11 @@ namespace TestGit
             Console.ReadLine();
         }
 
+        /// <summary>
+        /// Method description for GetQuote
+        /// </summary>
+        /// <param name="i"></param>
+        /// <returns></returns>
         static string GetQuote(int i)
         {
             int result = 0;

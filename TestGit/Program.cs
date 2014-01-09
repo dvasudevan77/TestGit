@@ -26,6 +26,11 @@ namespace TestGit
             Console.ReadLine();
         }
 
+        static string GetUserName(string user)
+        {
+            return ("User1");
+        }
+
         /// <summary>
         /// Method description for GetQuote
         /// </summary>

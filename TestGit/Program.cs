@@ -21,6 +21,9 @@ namespace TestGit
             Console.WriteLine("Calling function PriceQuote $" + GetPriceQuote(2));
             Console.WriteLine("I am in Deppa#3 module");
 
+            Console.WriteLine("I am in Deepa#2 testing conflicts");
+            Console.WriteLine("I am testing the GIt for conflicts");
+
             Console.ReadLine();
         }
 
